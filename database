@@ -1,0 +1,9 @@
+CREATE DATABASE chat ;
+
+CREATE TABLE datachat (
+idUser int(4) NOT NULL auto_increment,
+namaUser varchar(25) NOT NULL,
+isiChat varchar(250) NOT NULL,
+date varchar(40) NOT NULL,
+PRIMARY KEY (idUser)
+);
